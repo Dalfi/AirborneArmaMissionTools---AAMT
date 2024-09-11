@@ -1,10 +1,10 @@
 # Mission Tools für Arma 3
 
 ## Features
-- Convert Mission.sqm Files to JSON Format
-- Convert JSON Mission Files to SQM Format
+- Convert mission.sqm files to JSON format
+- Convert JSON mission files to SQM format
 
 
 ## Planed Features
-- Migrate Deformer changes between two Mission files
-- Cleanup of Objects that are duplicates (Same Objecttype and Position)
+- Migrate Deformer changes between two mission files
+- Cleanup of objects that are duplicates (same objecttype and position)
