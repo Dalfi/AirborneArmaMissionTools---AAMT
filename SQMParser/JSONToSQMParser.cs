@@ -15,23 +15,28 @@ namespace AirborneArmaMissionTools.SQM
 
     public static void Parse(string sourcefilepath, string destinationfilepath)
     {
-      //try
-      //{
-      indentLevel = 0;
-
-      using (StringWriter sw = new StringWriter())
-      using (StreamReader reader = File.OpenText(sourcefilepath))
+      try
       {
-        JObject o = (JObject)JToken.ReadFrom(new JsonTextReader(reader));
+        indentLevel = 0;
 
-        ParseJObject(sw, o);
+        using (StringWriter sw = new StringWriter())
+        using (StreamReader reader = File.OpenText(sourcefilepath))
+        {
+          JObject o = (JObject)JToken.ReadFrom(new JsonTextReader(reader));
 
-        // do stuff
+          ParseJObject(sw, o);
+
+          if (!File.Exists(destinationfilepath))
+            File.Create(destinationfilepath);
+
+          File.WriteAllText(destinationfilepath, sw.ToString());
+        }
       }
-      //}
-      //catch 
-      //{
-      //}
+      catch (IOException ex)
+      {
+        Console.WriteLine("The file could not be read:");
+        Console.WriteLine(ex.Message);
+      }
 
 
       return;
