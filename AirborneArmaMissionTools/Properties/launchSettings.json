@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "AirborneArmaMissionTools": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}

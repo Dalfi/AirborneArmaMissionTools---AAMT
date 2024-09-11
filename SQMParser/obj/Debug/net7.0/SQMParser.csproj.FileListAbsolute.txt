@@ -1,0 +1,12 @@
+C:\Users\Pasca\source\repos\AirborneArmaMissionTools\SQMParser\obj\Debug\net7.0\SQMParser.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pasca\source\repos\AirborneArmaMissionTools\SQMParser\obj\Debug\net7.0\SQMParser.AssemblyInfoInputs.cache
+C:\Users\Pasca\source\repos\AirborneArmaMissionTools\SQMParser\obj\Debug\net7.0\SQMParser.AssemblyInfo.cs
+C:\Users\Pasca\source\repos\AirborneArmaMissionTools\SQMParser\obj\Debug\net7.0\SQMParser.csproj.CoreCompileInputs.cache
+C:\Users\Pasca\source\repos\AirborneArmaMissionTools\SQMParser\bin\Debug\net7.0\SQMParser.deps.json
+C:\Users\Pasca\source\repos\AirborneArmaMissionTools\SQMParser\bin\Debug\net7.0\SQMParser.dll
+C:\Users\Pasca\source\repos\AirborneArmaMissionTools\SQMParser\bin\Debug\net7.0\SQMParser.pdb
+C:\Users\Pasca\source\repos\AirborneArmaMissionTools\SQMParser\obj\Debug\net7.0\SQMParser.csproj.AssemblyReference.cache
+C:\Users\Pasca\source\repos\AirborneArmaMissionTools\SQMParser\obj\Debug\net7.0\SQMParser.dll
+C:\Users\Pasca\source\repos\AirborneArmaMissionTools\SQMParser\obj\Debug\net7.0\refint\SQMParser.dll
+C:\Users\Pasca\source\repos\AirborneArmaMissionTools\SQMParser\obj\Debug\net7.0\SQMParser.pdb
+C:\Users\Pasca\source\repos\AirborneArmaMissionTools\SQMParser\obj\Debug\net7.0\ref\SQMParser.dll
